@@ -1,2 +1,62 @@
 # mTracker
-An open source mail tracker
+
+This is a very basic mail tracking service which I developed for my personal use.
+
+To see it working, visit [mTracker](https://https://emailtrack.herokuapp.com/)
+
+## How to use it:
+
+1. Visit the website
+
+![Before sign up](screenshots/before_signup.png)
+
+2. Fill the form
+
+![After signing up](screenshots/after_signup.png)
+
+3. Get the HTML code
+
+4. Add the HTML code to your mail body HTML. [This video](https://youtu.be/MsMSqhMlfao) will help you.
+
+5. Send your email.
+
+Now when the receiver opens your email, you will get an email
+
+![Sample of email](screenshots/mail.png)
+
+
+
+## Contributing
+
+You are welcome to contribute to this repository. Get started with the following steps:
+
+- clone the repo
+
+`git clone https://github.com/prashantsengar/mTracker.git`
+
+- Install the requirements
+
+ `pip install -r requirements.txt`
+
+- Edit the email address, password, SMPT address and port in the main.py file
+
+- Now you are good to go. Run the main file
+
+`python main.py` or `python3 main.py`
+
+The flask app will run on localhost. Visit http://localhost:5000
+
+
+## To-do
+
+There's a lot to do here. Everyone is welcome to make it better.
+
+- [ ] Make chrome extension that works for
+  
+  - [ ] Gmail
+
+  - [ ] Hotmail
+
+  - [ ] Yahoo mail
+
+- [ ] Others
