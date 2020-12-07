@@ -46,6 +46,7 @@ You are welcome to contribute to this repository. Get started with the following
 
 The flask app will run on localhost. Visit http://localhost:5000
 
+Join our Telegram group via the link given [below](#community)
 
 ## To-do
 
@@ -60,3 +61,9 @@ There's a lot to do here. Everyone is welcome to make it better.
   - [ ] Yahoo mail
 
 - [ ] Others
+
+## Community 
+
+Join the Telegram group for support and contributing
+
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="mTracker Telegram Group" width="150" height="150">](https://t.me/joinchat/INDdLhHnniCnOsIe3ivWDg)
