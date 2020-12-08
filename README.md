@@ -4,6 +4,8 @@ This is a very basic mail tracking service which I developed for my personal use
 
 To see it working, visit [mTracker](https://https://emailtrack.herokuapp.com/)
 
+You can read about the project in my [blog](https://prashants.in/blog/python-flask-e-mail-tracker/)
+
 ## How to use it:
 
 1. Visit the website
