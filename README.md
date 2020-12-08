@@ -66,6 +66,8 @@ There's a lot to do here. Everyone is welcome to make it better.
 
 ## Community 
 
+Read the [contributing guide](./CONTRIBUTING.md)
+
 Join the Telegram group for support and contributing
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="mTracker Telegram Group" width="150" height="150">](https://t.me/joinchat/INDdLhHnniCnOsIe3ivWDg)
