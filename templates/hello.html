@@ -1,0 +1,42 @@
+<html>
+<title>mTracker</title>
+        	 	<link rel="stylesheet" media="screen" href="static/css/bootstrap.min.css">
+        	 	<link rel="stylesheet" href="static/css/bootstrap-grid.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="container">
+<h2>Mail Tracking</h2>
+<h7>Use this mail tracker to track your mails. Simple and effective</h7>
+<br />
+<br />
+<form action="" method="post" role="form">
+    {{ form.csrf }}
+<div class="form-group">
+      <label for="name"><strong>Sender's email:</label>
+<input type="text" class="form-control" id="sender" name="sender" placeholder="sender@email.com">
+<br />
+<label for="email">Email:</label>
+<input type="text" class="form-control" id="receiver" name="receiver" placeholder="receiver@email.com">
+<br />
+
+</div>
+<button type="submit" class="btn btn-success">Sign Up</button>
+</form>{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+
+{% for message in messages %}
+{% if "Error" not in message[1]: %}
+<div class="alert alert-info">
+                {{ message[1] }}</div>
+{% endif %}
+
+{% if "Error" in message[1]: %}
+<div class="alert alert-warning">
+                {{ message[1] }}</div>
+{% endif %}
+
+{% endfor %}
+{% endif %}
+{% endwith %}
+
+</div>
+</html>
