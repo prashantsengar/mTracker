@@ -1,4 +1,4 @@
 requests
 flask
-WTForms
+WTForms==2.2.1
 flask_mail
